@@ -11,6 +11,9 @@ build_script:
             exit $LastExitCode
         }
     }
+deploy:
+- provider: Environment
+  name: MyGet HarshPoint-dev
 nuget:
   account_feed: true
   project_feed: true
