@@ -1,0 +1,10 @@
+build_script:
+- ps: >
+    Get-ChildItem -Recurse -Filter *.nuspec |% {
+      nuget pack $_.FullName -OutputDirectory out
+    }
+
+nuget:
+  account_feed: true
+  project_feed: true
+  disable_publish_on_pr: true

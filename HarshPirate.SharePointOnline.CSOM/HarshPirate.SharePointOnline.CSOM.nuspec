@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HarshPirate.SharePointOnline.CSOM</id>
+    <version>16.0.4002.1211</version>
+    <authors>Microsoft Corp.</authors>
+    <owners>Julie Koubova</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The MSI-based CSOM v16.0 packaged as a NuGet package.</description>
+  </metadata>
+</package>
