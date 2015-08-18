@@ -11,7 +11,6 @@ build_script:
             exit $LastExitCode
         }
     }
-deploy: off
 nuget:
   account_feed: true
   project_feed: true
