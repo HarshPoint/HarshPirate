@@ -4,8 +4,11 @@
     <id>HarshPirate.SharePoint</id>
     <version>15.0.4649.1000</version>
     <authors>Microsoft Corp.</authors>
-    <owners>Julie Koubova</owners>
+    <owners>HarshPoint</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Microsoft SharePoint v15.0 package</description>
+    <description>
+      Microsoft SharePoint v15.0 main server object model assembly
+      as a NuGet package.
+    </description>
   </metadata>
 </package>
