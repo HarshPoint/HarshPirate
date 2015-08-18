@@ -3,6 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{75EBD9B7-3244-45A6-AEEF-C27267D28D3F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet Package Specs", "NuGet Package Specs", "{C08380FA-313A-46B2-87B0-B70A9E82035C}"
+	ProjectSection(SolutionItems) = preProject
+		HarshPirate.SharePoint\HarshPirate.SharePoint.nuspec = HarshPirate.SharePoint\HarshPirate.SharePoint.nuspec
+		HarshPirate.SharePointOnline.CSOM\HarshPirate.SharePointOnline.CSOM.nuspec = HarshPirate.SharePointOnline.CSOM\HarshPirate.SharePointOnline.CSOM.nuspec
+		HarshPirate.System.Management.Automation\HarshPirate.System.Management.Automation.nuspec = HarshPirate.System.Management.Automation\HarshPirate.System.Management.Automation.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

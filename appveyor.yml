@@ -1,10 +1,17 @@
-build_script:
-- ps: >
-    Get-ChildItem -Recurse -Filter *.nuspec |% {
-      nuget pack $_.FullName -OutputDirectory out
-    }
-
+version: '{build}'
 nuget:
   account_feed: true
   project_feed: true
   disable_publish_on_pr: true
+build_script:
+- ps: >-
+    Get-ChildItem -Recurse -Filter *.nuspec |% {
+
+        nuget pack $_.FullName -OutputDirectory out
+
+        if (-not $?) {
+            exit $LastExitCode
+        }
+    }
+test: off
+deploy: off
