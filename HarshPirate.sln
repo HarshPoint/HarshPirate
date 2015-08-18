@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{75EBD9
 		appveyor.yml = appveyor.yml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet Package Specs", "NuGet Package Specs", "{C08380FA-313A-46B2-87B0-B70A9E82035C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{C08380FA-313A-46B2-87B0-B70A9E82035C}"
 	ProjectSection(SolutionItems) = preProject
 		HarshPirate.SharePoint\HarshPirate.SharePoint.nuspec = HarshPirate.SharePoint\HarshPirate.SharePoint.nuspec
 		HarshPirate.SharePointOnline.CSOM\HarshPirate.SharePointOnline.CSOM.nuspec = HarshPirate.SharePointOnline.CSOM\HarshPirate.SharePointOnline.CSOM.nuspec

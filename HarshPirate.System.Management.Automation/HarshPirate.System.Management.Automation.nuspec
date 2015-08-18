@@ -6,8 +6,7 @@
     <authors>Microsoft Corp.</authors>
     <owners>HarshPoint</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>
-      Microsoft Windows PowerShell 4.0 main assembly in a NuGet package.
-    </description>
+    <description>Microsoft Windows PowerShell 4.0 main assembly in a NuGet package.</description>
+    <licenseUrl>http://www.microsoft.com/en-us/Licensing</licenseUrl>
   </metadata>
 </package>
